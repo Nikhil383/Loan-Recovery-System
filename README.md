@@ -99,11 +99,11 @@ The Streamlit web interface focuses solely on loan recovery prediction, providin
 
 ### Sample Interface
 
-![Loan Input Form](screenshots/loan_input_form.png)
+![Loan Input Form](image.png)
 
 ### Sample Results
 
-![Prediction Results](screenshots/prediction_results.png)
+![Prediction Results](image-1.png)
 
 The interface allows users to:
 - Enter individual loan details with comprehensive input fields
