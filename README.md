@@ -111,8 +111,6 @@ The interface allows users to:
 - View recovery probability with visual indicators
 - Receive recovery assessment and risk factor identification
 
-> Note: The screenshots above show sample results from the application. You'll need to add your own screenshots to the `screenshots` directory after running the application.
-
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
