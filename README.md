@@ -63,8 +63,6 @@ streamlit run app.py
 ```
 smart-loan-recovery-system/
 ├── app.py                                      # Main Streamlit application
-├── create_project_doc.py                       # Script to generate project documentation
-├── convert_svg_to_png.py                       # SVG to PNG conversion utility
 ├── data/                                       # Data directory
 │   └── loan_data.csv                           # Sample loan data
 ├── models/                                     # Trained models
