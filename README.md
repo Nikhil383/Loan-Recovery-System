@@ -62,20 +62,31 @@ streamlit run app.py
 
 ```
 smart-loan-recovery-system/
-├── app.py                  # Main Streamlit application
-├── data/                   # Data directory
-│   └── loan_data.csv       # Sample loan data
-├── models/                 # Trained models
-├── src/                    # Source code
-│   ├── models/             # ML model implementations
-│   │   └── loan_recovery_model.py
-│   ├── preprocessing/      # Data preprocessing
-│   │   └── data_processor.py
-│   ├── utils/              # Utility functions
-│   │   └── data_generator.py
-│   └── train_model.py      # Script to train models
-├── README.md               # Project documentation
-└── requirements.txt        # Project dependencies
+├── app.py                                      # Main Streamlit application
+├── create_project_doc.py                       # Script to generate project documentation
+├── convert_svg_to_png.py                       # SVG to PNG conversion utility
+├── data/                                       # Data directory
+│   └── loan_data.csv                           # Sample loan data
+├── models/                                     # Trained models
+│   ├── loan_recovery_random_forest.pkl         # Trained Random Forest model
+│   └── loan_recovery_random_forest_processor.pkl # Model preprocessor
+├── screenshots/                                # Screenshots and diagrams
+│   ├── system_workflow.svg                     # System workflow diagram (SVG)
+│   ├── system_workflow.png                     # System workflow diagram (PNG)
+│   ├── system_workflow.html                    # System workflow diagram (HTML)
+│   ├── loan_input_form.png                     # UI screenshot - input form
+│   └── prediction_results.png                  # UI screenshot - results
+├── src/                                        # Source code
+│   ├── models/                                 # ML model implementations
+│   │   └── loan_recovery_model.py              # Loan recovery model class
+│   ├── preprocessing/                          # Data preprocessing
+│   │   └── data_processor.py                   # Data processor class
+│   ├── utils/                                  # Utility functions
+│   │   └── data_generator.py                   # Synthetic data generator
+│   └── train_model.py                          # Script to train models
+├── Smart_Loan_Recovery_System_Documentation.docx # Comprehensive project documentation
+├── README.md                                   # Project overview
+└── requirements.txt                            # Project dependencies
 ```
 
 ## Machine Learning Model
