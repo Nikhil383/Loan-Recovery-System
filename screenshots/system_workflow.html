@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Loan Recovery System - Workflow</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fc;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            background: linear-gradient(to right, #4e73df, #224abe);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .workflow-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-bottom: 30px;
+        }
+        .workflow-box {
+            width: 180px;
+            padding: 15px;
+            margin-bottom: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .workflow-box.data-input {
+            border-top: 4px solid #4e73df;
+        }
+        .workflow-box.data-processing {
+            border-top: 4px solid #4e73df;
+        }
+        .workflow-box.model {
+            border-top: 4px solid #4e73df;
+        }
+        .workflow-box.results {
+            border-top: 4px solid #1cc88a;
+            margin: 0 auto;
+        }
+        .workflow-title {
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .workflow-desc {
+            font-size: 12px;
+            color: #666;
+        }
+        .arrow {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 10px;
+        }
+        .arrow-down {
+            width: 0;
+            height: 0;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-top: 10px solid #333;
+            margin: 10px auto;
+        }
+        .components-container {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-top: 4px solid #36b9cc;
+        }
+        .components-title {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .components-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .component-box {
+            width: 22%;
+            padding: 15px;
+            margin-bottom: 15px;
+            background-color: #f8f9fc;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .component-box.data-gen {
+            border-left: 4px solid #e74a3b;
+        }
+        .component-box.data-proc {
+            border-left: 4px solid #f6c23e;
+        }
+        .component-box.ml-model {
+            border-left: 4px solid #1cc88a;
+        }
+        .component-box.ui {
+            border-left: 4px solid #4e73df;
+        }
+        .component-title {
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #333;
+            font-size: 14px;
+        }
+        .component-desc {
+            font-size: 11px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Smart Loan Recovery System - Workflow</h1>
+        </div>
+        
+        <div class="workflow-container">
+            <div class="workflow-box data-input">
+                <div class="workflow-title">Data Input</div>
+                <div class="workflow-desc">Single Loan Entry or</div>
+                <div class="workflow-desc">CSV Batch Upload</div>
+            </div>
+            
+            <div class="workflow-box data-processing">
+                <div class="workflow-title">Data Processing</div>
+                <div class="workflow-desc">Feature Engineering</div>
+                <div class="workflow-desc">Data Normalization</div>
+            </div>
+            
+            <div class="workflow-box model">
+                <div class="workflow-title">Random Forest Model</div>
+                <div class="workflow-desc">Prediction Engine</div>
+                <div class="workflow-desc">Recovery Probability</div>
+            </div>
+        </div>
+        
+        <div class="arrow-down"></div>
+        
+        <div class="workflow-box results">
+            <div class="workflow-title">Results Visualization</div>
+            <div class="workflow-desc">Interactive Charts</div>
+            <div class="workflow-desc">Recovery Assessment</div>
+        </div>
+        
+        <div style="margin-top: 40px;"></div>
+        
+        <div class="components-container">
+            <h2 class="components-title">System Components</h2>
+            
+            <div class="components-grid">
+                <div class="component-box data-gen">
+                    <div class="component-title">Data Generator</div>
+                    <div class="component-desc">Synthetic Data</div>
+                    <div class="component-desc">Sample Generation</div>
+                    <div class="component-desc">data_generator.py</div>
+                </div>
+                
+                <div class="component-box data-proc">
+                    <div class="component-title">Data Processor</div>
+                    <div class="component-desc">Feature Engineering</div>
+                    <div class="component-desc">Data Normalization</div>
+                    <div class="component-desc">data_processor.py</div>
+                </div>
+                
+                <div class="component-box ml-model">
+                    <div class="component-title">ML Model</div>
+                    <div class="component-desc">Random Forest</div>
+                    <div class="component-desc">Prediction Engine</div>
+                    <div class="component-desc">loan_recovery_model.py</div>
+                </div>
+                
+                <div class="component-box ui">
+                    <div class="component-title">Streamlit UI</div>
+                    <div class="component-desc">Web Interface</div>
+                    <div class="component-desc">Interactive Dashboard</div>
+                    <div class="component-desc">app.py</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

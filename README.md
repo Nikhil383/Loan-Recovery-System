@@ -6,6 +6,19 @@ A machine learning-powered system for predicting loan recovery probability with 
 
 The Smart Loan Recovery System helps financial institutions predict the likelihood of recovering loans by analyzing various customer and loan attributes. The system uses machine learning algorithms to provide insights that can help prioritize collection efforts and optimize recovery strategies.
 
+## System Workflow
+
+![System Workflow](screenshots/system_workflow.png)
+
+The diagram above illustrates the complete workflow of the Smart Loan Recovery System:
+
+1. **Data Input**: Users can enter individual loan details or upload CSV files for batch processing
+2. **Data Processing**: The system preprocesses the data, performs feature engineering and normalization
+3. **Random Forest Model**: The prediction engine analyzes the data using the Random Forest algorithm
+4. **Results Visualization**: Interactive charts display recovery probability and risk assessment
+
+The bottom section shows the key system components and their relationships, providing a clear overview of the system architecture.
+
 ## Features
 
 - **Predictive Analytics**: Uses machine learning to predict loan recovery probability
